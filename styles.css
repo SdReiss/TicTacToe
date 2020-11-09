@@ -2,6 +2,13 @@ body{
     background-color: rgb(141, 172, 230);
 }
 
+caption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 td{
     border: 3px solid rgb(35, 86, 182);
     height: 100px;
@@ -11,23 +18,21 @@ td{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(14, 36, 77);;
     font-size: 70px;
-    cursor: pointer;
+    cursor: crosshair;
 }
 
-.tableBox {
+.tableBox{
     margin-top: 12%;
     display: flex;
     justify-content: center;
 }
 
-table {
+table{
     padding: 10px;;
     background-color: rgb(55, 114, 224);
     border-radius: 10px;
     border-spacing: 0;
 }
-
-
 
 table tr:first-child td{
     border-top: 30px solid rgb(55, 114, 224);
